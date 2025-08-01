@@ -31,12 +31,14 @@ const menuItems = [
       {
         title: "Sarah",
         href: "/brand/sarah",
-        description: "Quality food products for your family",
       },
       {
-        title: "Sarah Vegetable Oil",
+        title: "Sarah Veg. Oil",
         href: "/brand/nippon-oil",
-        description: "Pure and natural groundnut oil",
+      },
+      {
+        title: "Oma Foods",
+        href: "/brand/oma-foods",
       },
     ],
   },
@@ -137,24 +139,21 @@ export function MainNav() {
                         <NavigationMenuTrigger className="text-base font-normal text-white hover:text-white/80 focus:text-white/80 transition-all duration-200 bg-transparent hover:bg-white/10 focus:bg-white/10">
                           {item.title}
                         </NavigationMenuTrigger>
-                        <NavigationMenuContent className="z-50 bg-[#28406c]">
-                          <ul className="grid gap-3 p-4 md:w-[400px] md:grid-cols-2">
+                        <NavigationMenuContent className="z-50">
+                          <ul className="grid gap-1 p-2 w-[200px] bg-white rounded-lg shadow-lg border border-gray-200">
                             {item.items.map((subItem) => (
                               <li key={subItem.title}>
                                 <NavigationMenuLink asChild>
                                   <Link
                                     href={subItem.href}
                                     className={cn(
-                                      "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-white/10 text-white hover:text-white/80 focus:bg-white/10 focus:text-white/80",
-                                      pathname === subItem.href && "bg-white/10 text-white"
+                                      "block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-blue-50 text-gray-700 hover:text-gray-900",
+                                      pathname === subItem.href && "bg-blue-50 text-blue-600"
                                     )}
                                   >
-                                    <div className="text-base font-medium leading-none">
+                                    <div className="text-sm font-medium leading-none">
                                       {subItem.title}
                                     </div>
-                                    <p className="line-clamp-2 text-sm leading-snug text-white/70 mt-1">
-                                      {subItem.description}
-                                    </p>
                                   </Link>
                                 </NavigationMenuLink>
                               </li>
