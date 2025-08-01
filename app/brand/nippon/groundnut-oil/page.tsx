@@ -22,7 +22,7 @@ export default function NipponGroundnutOilPage() {
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
                 src="/groundnut-oil1.jpg"
-                alt="Nippon Groundnut Oil"
+                alt="Sarah Vegetable Oil"
                 fill
                 className="object-cover"
                 priority
@@ -32,7 +32,7 @@ export default function NipponGroundnutOilPage() {
               <div className="relative h-[120px] rounded-lg overflow-hidden">
                 <Image
                   src="/groundnut-oil2.jpg"
-                  alt="Nippon Groundnut Oil - View 2"
+                  alt="Sarah Vegetable Oil - View 2"
                   fill
                   className="object-cover"
                 />
@@ -40,7 +40,7 @@ export default function NipponGroundnutOilPage() {
               <div className="relative h-[120px] rounded-lg overflow-hidden">
                 <Image
                   src="/groundnut-oil3.jpg"
-                  alt="Nippon Groundnut Oil - View 3"
+                  alt="Sarah Vegetable Oil - View 3"
                   fill
                   className="object-cover"
                 />
@@ -48,7 +48,7 @@ export default function NipponGroundnutOilPage() {
               <div className="relative h-[120px] rounded-lg overflow-hidden">
                 <Image
                   src="/groundnut-oil4.jpg"
-                  alt="Nippon Groundnut Oil - View 4"
+                  alt="Sarah Vegetable Oil - View 4"
                   fill
                   className="object-cover"
                 />
@@ -59,7 +59,7 @@ export default function NipponGroundnutOilPage() {
           {/* Product Info */}
           <div className="space-y-6">
             <div>
-              <h1 className="text-4xl font-bold mb-4">Nippon Groundnut Oil</h1>
+              <h1 className="text-4xl font-bold mb-4">Sarah Vegetable Oil</h1>
               <p className="text-xl text-muted-foreground">
                 Premium quality groundnut oil made from carefully selected groundnuts, perfect for all your cooking needs.
               </p>
@@ -131,10 +131,10 @@ export default function NipponGroundnutOilPage() {
             <h2 className="text-3xl font-bold mb-6">Product Description</h2>
             <div className="prose prose-lg max-w-none">
               <p>
-                Nippon Groundnut Oil is a premium quality cooking oil that brings authentic taste and health benefits to your kitchen. Made from carefully selected groundnuts, our oil is perfect for all types of cooking.
+                Sarah Vegetable Oil is a premium quality cooking oil that brings authentic taste and health benefits to your kitchen. Made from carefully selected vegetables, our oil is perfect for all types of cooking.
               </p>
               <p>
-                Our commitment to quality ensures that every bottle of Nippon Groundnut Oil meets the highest standards of purity and taste. The oil is rich in healthy fats and contains no artificial additives, making it a healthy choice for your family.
+                Our commitment to quality ensures that every bottle of Sarah Vegetable Oil meets the highest standards of purity and taste. The oil is rich in healthy fats and contains no artificial additives, making it a healthy choice for your family.
               </p>
             </div>
           </section>

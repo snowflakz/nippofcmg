@@ -26,7 +26,7 @@ const featuredProducts = [
     link: "/brand/sarah/sarah-mackerel",
   },
   {
-    name: "Nippon Groundnut Oil",
+    name: "Sarah Vegetable Oil",
     description: "Pure, natural groundnut oil for all your cooking needs.",
     image: "/nippon oil1.jpg",
     link: "/brand/nippon-oil",
@@ -43,11 +43,11 @@ const premiumBrands = [
     buttonText: "Explore Sarah Products"
   },
   {
-    name: "Nippon Oil",
-    description: "Pure, natural oils produced locally in Nigeria",
+    name: "Sarah Vegetable Oil",
+    description: "Pure, natural vegetable oil produced and sourced locally in Nigeria",
     image: "/nippon oil1.jpg",
     link: "/brand/nippon-oil",
-    buttonText: "Explore Nippon Oils"
+    buttonText: "Explore Sarah Veg. Oil"
   }
 ]
 

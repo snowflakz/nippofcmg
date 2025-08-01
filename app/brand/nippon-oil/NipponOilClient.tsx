@@ -12,7 +12,7 @@ export default function NipponOilClient() {
       <div className="relative h-[500px] mb-16 rounded-lg overflow-hidden">
         <Image
           src="/nippon oil.png"
-          alt="Nippon Groundnut Oil"
+          alt="Sarah Vegetable Oil"
           fill
           className="object-cover"
           priority
@@ -20,7 +20,7 @@ export default function NipponOilClient() {
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Nippon Groundnut Oil
+              Sarah Vegetable Oil
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
               Pure, natural, and locally produced in Nigeria
@@ -40,7 +40,7 @@ export default function NipponOilClient() {
           >
             <h2 className="text-3xl font-bold">Premium Quality Groundnut Oil</h2>
             <p className="text-lg text-muted-foreground">
-              Produced in our state-of-the-art facility in Calabar, Nigeria, Nippon Groundnut Oil is made from carefully selected groundnuts, ensuring the highest quality and purity.
+              Produced in our state-of-the-art facility in Calabar, Nigeria, Sarah Vegetable Oil is made from carefully selected vegetables, ensuring the highest quality and purity.
             </p>
             <ul className="space-y-4">
               <li className="flex items-start">
@@ -69,7 +69,7 @@ export default function NipponOilClient() {
           >
             <Image
               src="/Nippon Groundnut oil.png"
-              alt="Nippon Oil Production"
+              alt="Sarah Vegetable Oil Production"
               fill
               className="object-cover"
             />
@@ -80,7 +80,7 @@ export default function NipponOilClient() {
       {/* Benefits Section */}
       <section className="mb-16 bg-primary/5 py-12 rounded-lg">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Why Choose Nippon Oil?</h2>
+          <h2 className="text-3xl font-bold mb-4">Why Choose Sarah Vegetable Oil?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Experience the difference with our premium groundnut oil
           </p>
@@ -126,7 +126,7 @@ export default function NipponOilClient() {
       <section className="text-center py-12 bg-primary/5 rounded-lg">
         <h2 className="text-3xl font-bold mb-4">Experience the Nippon Difference</h2>
         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Join thousands of satisfied customers who trust Nippon Groundnut Oil for their cooking needs.
+          Join thousands of satisfied customers who trust Sarah Vegetable Oil for their cooking needs.
         </p>
         <div className="flex gap-4 justify-center">
           <Button asChild size="lg">

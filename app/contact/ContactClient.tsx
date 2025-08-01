@@ -171,7 +171,7 @@ export default function ContactClient() {
                   <div>
                     <h3 className="font-semibold mb-1">Phone Number</h3>
                     <p className="text-muted-foreground">
-                      +1 (573) 212 5996<br />
+                      +1 (760) 359 2732<br />
                       +23407 728 9270<br />
                       +234807 711 5572
                     </p>
@@ -185,6 +185,17 @@ export default function ContactClient() {
                     <p className="text-muted-foreground">
                       enquiries@nipponnig.com<br />
                       support@nippon.com
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <Phone className="w-6 h-6 text-primary mt-1" />
+                  <div>
+                    <h3 className="font-semibold mb-1">Sales Appointment</h3>
+                    <p className="text-muted-foreground">
+                      To schedule an appointment with our Sales agent call this number:<br />
+                      <strong>+1 (651) 412 2265</strong>
                     </p>
                   </div>
                 </div>

@@ -18,7 +18,7 @@ export default function FindRetailerClient() {
       name: "Superior Stores",
       address: "123 Main Street, Lagos",
       phone: "+234 123 456 7890",
-      products: ["Sarah Sardine", "Nippon Groundnut Oil", "Sarah Mackerel"],
+      products: ["Sarah Sardine", "Sarah Vegetable Oil", "Sarah Mackerel"],
       coordinates: "6.5244,3.3792" // Lagos coordinates
     },
     {

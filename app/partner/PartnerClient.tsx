@@ -269,7 +269,7 @@ export default function PartnerClient() {
             Please fill out the form below to help us prepare for our conversation and ensure we can address your specific needs.
           </p>
           <p className="text-gray-600 mb-6 text-center">
-            To get in touch with our sales team to see how we can work together. You can call us on: +1 (573) 212 5996, +23407 728 9270
+            To get in touch with our sales team to see how we can work together. You can call us on: +1 (760) 359 2732, +23407 728 9270
           </p>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">

@@ -103,7 +103,7 @@ export default function CookiesPolicyClient() {
             </p>
             <p className="mt-2">
               Email: enquiries@nipponnig.com<br />
-              Phone: +1 (573) 212 5996<br />
+              Phone: +1 (760) 359 2732<br />
               Address: Lagos, Nigeria
             </p>
           </section>

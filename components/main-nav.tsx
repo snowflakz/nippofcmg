@@ -34,7 +34,7 @@ const menuItems = [
         description: "Quality food products for your family",
       },
       {
-        title: "Nippon Oil",
+        title: "Sarah Vegetable Oil",
         href: "/brand/nippon-oil",
         description: "Pure and natural groundnut oil",
       },

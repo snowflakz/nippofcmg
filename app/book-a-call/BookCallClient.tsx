@@ -155,7 +155,7 @@ export default function BookCallClient() {
     } else {
       // Show the number for desktop users
       toast.info("Call our sales team directly:", {
-        description: "+1 (573) 212 5996",
+        description: "+1 (760) 359 2732",
         duration: 5000
       })
     }
@@ -354,7 +354,7 @@ export default function BookCallClient() {
                 className="bg-green-600 hover:bg-green-700"
                 size="lg"
               >
-                <Phone className="mr-2 h-5 w-5" /> Call Now (+1 (573) 212 5996)
+                <Phone className="mr-2 h-5 w-5" /> Call Now (+1 (760) 359 2732)
               </Button>
             </div>
 
@@ -706,7 +706,7 @@ export default function BookCallClient() {
         <div className="flex flex-col md:flex-row justify-center gap-8 items-center">
           <div className="flex items-center gap-4">
             <Phone className="w-5 h-5 text-[#28406c]" />
-            <span>+1 (573) 212 5996</span>
+            <span>+1 (760) 359 2732</span>
           </div>
           <div className="flex items-center gap-4">
             <svg 
